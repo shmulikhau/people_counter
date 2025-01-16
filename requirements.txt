@@ -1,0 +1,11 @@
+numpy
+torch>=2.0.1
+torchvision>=0.15.2
+pycocotools
+PyYAML
+tensorboard
+filterpy==1.4.5
+opencv-python-headless
+fastapi[standard]
+uvicorn
+python-multipart
