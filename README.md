@@ -22,10 +22,10 @@ service for count people in videos
 - inside the source code of the SORT algorithm - i added a counter to count every new bounding box
 
 ## Tree of folders:
-- models - the models directory
--- rtdetrv2_pytorch - source code of pytorch version of RTDETRv2 model
--- sort_tracker - source code of SORT algorithm
-- service - implementation of the backend architecture for this project
--- service.py - from this file the program starting
-- weights - this folder contain the weights files to the algorithm
-- Dockerfile - docker file to build production image
++ models - the models directory
+++ rtdetrv2_pytorch - source code of pytorch version of RTDETRv2 model
+++ sort_tracker - source code of SORT algorithm
++ service - implementation of the backend architecture for this project
+++ service.py - from this file the program starting
++ weights - this folder contain the weights files to the algorithm
++ Dockerfile - docker file to build production image
