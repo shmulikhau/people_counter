@@ -8,8 +8,8 @@ service for count people in videos
 - client send to server that the task end by task-id
 
 ## How to run:
-- build the docker file from root project directory
-- run the image and set port to 8000
+- build the docker file from root project directory (using bash/cmd: `docker build -t people_counter .`)
+- run the image and set port to 8000 (using bash/cmd: `docker run -p 8000:8000 people_counter`)
 - now enter to localhost:8000/docs - it's the route for the swagger-ui
 - use route /open_task to get task-id
 - use route /delete_task to delete the task from the server
@@ -23,9 +23,9 @@ service for count people in videos
 
 ## Tree of folders:
 + models - the models directory
-++ rtdetrv2_pytorch - source code of pytorch version of RTDETRv2 model
-++ sort_tracker - source code of SORT algorithm
+  + rtdetrv2_pytorch - source code of pytorch version of RTDETRv2 model
+  + sort_tracker - source code of SORT algorithm
 + service - implementation of the backend architecture for this project
-++ service.py - from this file the program starting
+  + service.py - from this file the program starting
 + weights - this folder contain the weights files to the algorithm
 + Dockerfile - docker file to build production image
